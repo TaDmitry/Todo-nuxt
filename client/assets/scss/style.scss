@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-wrap: balance;
+	text-decoration: none;
+	list-style-type: none;
+	box-sizing: border-box;
+	transition:
+		color 0.4s ease-in-out,
+		background-color 0.4s ease-in-out,
+		opacity 0.4s ease-in-out,
+		box-shadow 0.4s ease-in-out,
+		transform 0.2s ease-in-out,
+		border-color 0.4s ease-in-out,
+		font-size 0.4s ease-in-out,
+		text-shadow 0.4s ease-in-out,
+		backdrop-filter 0.4s ease-in-out;
+}
+
+::-webkit-scrollbar {
+	width: 0;
+}
+
+body {
+	min-height: 100vh;
+	line-height: 1.6;
+	font-size: 16px;
+	font-family: 'Oswald', sans-serif;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+	font-family: 'Oswald';
+	src: url('@/assets/fonts/Oswald/Oswald-VariableFont_wght.ttf') format('truetype');
+	font-weight: 100 900;
+	font-style: normal;
+	font-display: swap;
+}

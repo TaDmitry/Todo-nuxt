@@ -1,0 +1,64 @@
+$transparent: rgba(0, 0, 0, 0);
+
+// Whites
+$white: #ffffff;
+$white-080: #ffffff8a;
+$white-200: #d8d6d6;
+$white-300: #cccccc;
+$white-500: #9f9f9f;
+
+// Blacks
+$black: #000000;
+$black-01: rgba(0, 0, 0, 0.1);
+$black-02: rgba(0, 0, 0, 0.2);
+$black-05: rgba(0, 0, 0, 0.5);
+$black-100: #0c0c0c;
+$black-180: #181818;
+$black-220: #222222;
+$black-270: #272432;
+$black-440: #444444;
+$black-660: #666666;
+
+// Social Media Colors (optional)
+$facebook: #3b5998;
+$instagram-1: #f9ce34;
+$instagram-2: #ee2a7b;
+$instagram-3: #6228d7;
+$tiktok: #000000;
+$youtube: #ff0000;
+$twitter: #000000;
+
+:root {
+	--transparent: #{$transparent};
+
+	/* Base Theme Colors */
+	--bg: #{$white};
+	--fg: #{$black};
+	--bg-div: #{$white};
+	--bg-div-shadow: #{$white-300};
+	--separator: #{$white-300};
+
+	/* Text */
+	--text: #{$black};
+	--text-heading: #{$white};
+	--text-muted: #{$black-660};
+
+	/* Header/Footer Background */
+	--header-bg: #{$black-270};
+	--footer-bg: #{$black-270};
+}
+
+.dark {
+	--bg: #{$black-100};
+	--fg: #{$white};
+	--bg-div: #{$black-100};
+	--bg-div-shadow: #{$black-180};
+	--separator: #{$black-440};
+
+	--text: #{$white};
+	--text-heading: #{$white};
+	--text-muted: #{$black-660};
+
+	--header-bg: #{$black-180};
+	--footer-bg: #{$black-180};
+}
