@@ -6,7 +6,7 @@
 
 <style scoped lang="scss">
 .footer {
-	color: #fff;
+	color: $white;
 	padding: 1rem;
 	margin-top: auto;
 	text-align: center;

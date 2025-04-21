@@ -1,75 +1,84 @@
 # Nuxt Minimal Starter
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Check out the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Setup
+## Installation
 
-Make sure to install dependencies:
+1. Make sure you have Node.js installed (LTS version is recommended).  
+   Download and install it from the [official Node.js website](https://nodejs.org/).
+
+2. Install the project dependencies by running the following command in the terminal:
 
 ```bash
-# npm
+# Using npm
 npm install
 
-# pnpm
+# Or using pnpm
 pnpm install
 
-# yarn
+# Or using yarn
 yarn install
 
-# bun
+# Or using bun
 bun install
 ```
 
-## Development Server
+## Starting the Development Server
 
-Start the development server on `http://localhost:3000`:
+To start the development server, run the following command:
 
 ```bash
-# npm
+# Using npm
 npm run dev
 
-# pnpm
+# Or using pnpm
 pnpm dev
 
-# yarn
+# Or using yarn
 yarn dev
 
-# bun
+# Or using bun
 bun run dev
 ```
 
-## Production
+Once started, the server will be available at: [http://localhost:3000](http://localhost:3000).
 
-Build the application for production:
+## Building for Production
+
+To build the application, run:
 
 ```bash
-# npm
+# Using npm
 npm run build
 
-# pnpm
+# Or using pnpm
 pnpm build
 
-# yarn
+# Or using yarn
 yarn build
 
-# bun
+# Or using bun
 bun run build
 ```
 
-Locally preview production build:
+## Previewing the Production Build Locally
+
+To preview the built application locally, run:
 
 ```bash
-# npm
+# Using npm
 npm run preview
 
-# pnpm
+# Or using pnpm
 pnpm preview
 
-# yarn
+# Or using yarn
 yarn preview
 
-# bun
+# Or using bun
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Additional Information
+
+For information on deploying the application, refer to the [deployment documentation](https://nuxt.com/docs/getting-started/deployment).

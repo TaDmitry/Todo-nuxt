@@ -1,7 +1,7 @@
 <template>
-	<button @click="toggleTheme" class="theme-toggle">
-		<span v-if="theme === 'light'">🌞</span>
-		<span v-else>🌜</span>
+	<button class="theme-toggle" @click="toggleTheme">
+		<Icon v-if="theme === 'light'" name="basil:sun-solid" />
+		<Icon v-else id="Icon__moon" name="fa6-solid:moon" />
 	</button>
 </template>
 
@@ -16,5 +16,11 @@ const { theme, toggleTheme } = useTheme();
 	border: none;
 	font-size: 1.5rem;
 	cursor: pointer;
+
+	span {
+		color: white;
+		width: 28px;
+		height: 28px;
+	}
 }
 </style>

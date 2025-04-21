@@ -1,7 +1,7 @@
 <template>
 	<div class="layout">
 		<TheHeader />
-		<main class="main">
+		<main>
 			<NuxtPage />
 		</main>
 		<TheFooter />
@@ -14,6 +14,9 @@ import TheFooter from "~/components/TheFooter.vue";
 </script>
 
 <style scoped lang="scss">
+main {
+	flex: auto;
+}
 .layout {
 	display: flex;
 	flex-direction: column;

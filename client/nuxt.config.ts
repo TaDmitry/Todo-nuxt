@@ -1,11 +1,8 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
 	compatibilityDate: "2024-11-01",
 	devtools: { enabled: true },
 
-	// Подключение модулей (оставляем только eslint)
-	modules: ["@nuxt/eslint"],
-	// Глобальные стили (SCSS)
+	modules: ["@nuxt/eslint", "@nuxt/icon"],
 	css: ["@/assets/scss/main.scss"],
 
 	// Настройки Vite для предобработки SCSS
