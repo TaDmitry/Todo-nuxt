@@ -118,7 +118,7 @@ watch(
 		padding: 10px;
 		border: 1px solid $black-333;
 		border-radius: 6px;
-		background-color: lighten($black-180, 10%);
+		background-color: $black-180;
 		color: $white;
 		margin-right: 10px;
 		font-size: 16px;
@@ -142,7 +142,7 @@ watch(
 		font-family: "Oswald", sans-serif;
 
 		&:hover {
-			background-color: darken($accent-color, 10%);
+			background-color: $accent-color;
 		}
 	}
 }
@@ -200,7 +200,7 @@ watch(
 			padding: 5px;
 			border: 1px solid $black-333;
 			border-radius: 6px;
-			background-color: lighten($black-180, 10%);
+			background-color: black-180;
 			color: $white;
 			font-size: 16px;
 			margin-right: 10px;
@@ -228,7 +228,7 @@ watch(
 				font-family: "Oswald", sans-serif;
 
 				&:hover {
-					background-color: darken($accent-color, 10%);
+					background-color: $accent-color;
 				}
 			}
 		}
